@@ -3,14 +3,18 @@
 /**
  * main - Entry point
  *
- *Description: using _putchar function to print _putchar
+ * Description: prints _putchar
  *
  * Return: Always (0)
 */
-
 int main(void)
 {
-	_putchar1();
+	char arr[8] = "_putchar";
+	int i;
+
+	for (i = 'a' ; i <= 'z' ; i++)
+		_putchar(arr[i]);
+	_putchar('\n');
 	return (0);
 }
 
